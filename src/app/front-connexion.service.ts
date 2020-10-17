@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class FrontConnexionService {
 
-  private baseUrl = 'http://localhost:8080/';
+  private baseUrl = 'http://episen-sca-jag-back_docker:8080/';
   //private baseUrl = 'http://172.31.254.61:8080/api';
 
   constructor(private http: HttpClient, private router: Router) { }
